@@ -5,6 +5,13 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/*
+ * With this class you can test the CollatzConjecture for an given section
+ * Usage:
+ *   first parameter: start value (included)
+ *   second parameter: end value (included)
+ *   -k: goes over the section, but if it gets to a value that was used before it says it is known and continues with next value [optional] (has to be last parameter)
+ */
 public class CollatzConjecture
 {
     public static void main(final String[] args)
